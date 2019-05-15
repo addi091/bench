@@ -1,0 +1,95 @@
+1. Features of java:-
+2. paltform independednt
+3. robust
+  object oriented- Java can be easily extended since it is based on the Object model.
+
+  platform independent- It is not compiled into platform specific machine, 
+                        rather into platform-independent byte code. 
+                        This byte code is distributed over the web and interpreted 
+                        by the Virtual Machine (JVM) on whichever platform it is being run on.
+  simple-
+
+  secure- With Java's secure feature it enables to develop virus-free, tamper-free systems. 
+          Authentication techniques are based on public-key encryption.
+
+  robust- Java makes an effort to eliminate error-prone situations by 
+          emphasizing mainly on compile time error checking and runtime checking.
+
+  multithreaded-can perform many tasks simultaneously.
+
+  interpreted-Java byte code is translated on the fly to native 
+              machine instructions and is not stored anywhere.
+
+  dynamic-it is designed to adapt to an evolving environment. 
+          Java programs can carry an extensive amount of run-time 
+          information that can be used to verify and resolve accesses 
+          to objects at run-time.
+
+  Architecture- neutralJava compiler generates an architecture-neutral object file format, 
+                which makes the compiled code executable on many processors, 
+                with the presence of Java runtime system.
+
+  Portable- Being architecture-neutral and having no implementation dependent aspects of 
+            the specification makes Java portable. 
+            The compiler in Java is written in ANSI C with a clean portability boundary, 
+            which is a POSIX subset.
+
+  High Performance- With the use of Just-In-Time compilers, Java enables high performance.
+
+  Distributed- Java is designed for the distributed environment of the internet.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+4. differnece of java & C
+a. JAVA is Object-Oriented while C is procedural. Different Paradigms.
+b. Java is an Interpreted language while C is a compiled language.
+c. C is a low-level language while JAVA is a high-level language.
+d.  JAVA supports Method Overloading while C does not support overloading at all.
+e. Exception Handling in JAVA And the errors & crashes in C.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+5,6,7. pillars of oops:-
+Abstraction- Abstraction refers to showing only the essential features of the application and hiding the details. 
+             In C++/Java, classes provide methods to the outside world to access & use the data variables, 
+             but the variables are hidden from direct access. This can be done access specifiers. 
+             For example: phone call, we don't know the internal processing.
+             Abstraction = Encapsulation + Data Hiding
+
+Inheritance- Inheritance is a way to reuse code. The class which is inherited from, is called the base class, 
+             and the class which inherits the code from the base class is called a derived class. 
+             A derived class can use all the functions which are defined in the base class, making the code reusable.
+
+Encapsulation- It can also be said data binding. Encapsulation is all about binding the data variables and functions together in class.
+
+Polymorphism: It is a feature, which lets us create functions with same name but different arguments, which will perform differently. 
+              That is function with same name, functioning in different way. Or, it also allows us to redefine a function to provide its new definition.
+              exxample:-  lets say we have a class Animal that has a method sound(). 
+                          Since this is a generic class so we can’t give it a implementation like: Roar, Meow, Oink etc.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+8. Inheritance Is-A & Has-A relation:-
+   IS-A Relationship: In object-oriented programming, the concept of IS-A is a totally based on Inheritance, 
+                      which can be of two types Class Inheritance or Interface Inheritance. 
+                      It is just like saying "A is a B type of thing". For example, Apple is a Fruit, Car is a Vehicle etc. Inheritance is uni-directional. 
+                      For example, House is a Building. But Building is not a House.
+
+It is a key point to note that you can easily identify the IS-A relationship. 
+Wherever you see an extends keyword or implements keyword in a class declaration, then this class is said to have IS-A relationship.
+
+HAS-A Relationship:  Composition(HAS-A) simply mean the use of instance variables that are references to other objects. 
+                     For example Maruti has Engine, or House has Bathroom.
+                     Let’s understand these concepts with an example of Car class.
+
+IS-A relationship based on Inheritance, which can be of two types Class Inheritance or Interface Inheritance.
+Has-a relationship is composition relationship which is a productive way of code reuse.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Exception- An exception is an unwanted or unexpected event, which occurs during the execution of a program i.e at run time, 
+           that disrupts the normal flow of the program’s instructions.
+           The core advantage of exception handling is to maintain the normal flow of the application. 
+           An exception normally disrupts the normal flow of the application that is why we use exception handling.
+  Exception Handling is a mechanism to handle runtime errors 
+  such as ClassNotFoundException, IOException, SQLException, RemoteException, etc.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Main interfaces of collection:-
+-set
+-list
+-map
+-queue
+
+
